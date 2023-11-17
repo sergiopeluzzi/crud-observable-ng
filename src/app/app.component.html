@@ -35,7 +35,7 @@
         <td>{{ conta.saldo }}</td>
         <td>
           <span (click)="preencherCampos(conta)">Editar</span>
-          <span>Excluir</span>
+          <span (click)="deletarContas(conta.id!)">Excluir</span>
         </td>
       </tr>
     </tbody>

@@ -19,7 +19,11 @@ export class ContaService {
     return this.http.post<Conta>(this.url, conta);
   }
 
-  editarContas(conta: Conta) {
+  atualizarContas(conta: Conta) {
     return this.http.put<Conta>(`${this.url}/${conta.id}`, conta);
+  }
+
+  deletarContas(id: number) {
+    return this.http.delete<void>(`${this.url}/${id}`);
   }
 }

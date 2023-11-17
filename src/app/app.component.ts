@@ -34,6 +34,18 @@ export class AppComponent {
       return;
     }
 
+    if (this.id) {
+      return this.contasService
+        .atualizarContas({
+          id: this.id,
+          cliente: this.cliente,
+          agencia: this.agencia,
+          conta: this.conta,
+          saldo: this.saldo,
+        })
+        .subscribe(() => this.obterContas());
+    }
+
     return this.contasService
       .cadastrarContas({
         cliente: this.cliente,
@@ -41,6 +53,12 @@ export class AppComponent {
         conta: this.conta,
         saldo: this.saldo,
       })
+      .subscribe(() => this.obterContas());
+  }
+
+  deletarContas(id: number) {
+    return this.contasService
+      .deletarContas(id)
       .subscribe(() => this.obterContas());
   }
 
