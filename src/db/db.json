@@ -1,0 +1,46 @@
+{
+  "contas": [
+    {
+      "id": 1,
+      "cliente": "Sergio",
+      "agencia": "1234",
+      "conta": "1111-2",
+      "saldo": 1000
+    },
+    {
+      "id": 2,
+      "cliente": "Judas",
+      "agencia": "777",
+      "conta": "1741-8",
+      "saldo": 30
+    },
+    {
+      "id": 3,
+      "cliente": "Kleber",
+      "agencia": "1234",
+      "conta": "6121-1",
+      "saldo": 5000
+    },
+    {
+      "cliente": "Amaral",
+      "agencia": "4151",
+      "conta": "9874-1",
+      "saldo": "1500",
+      "id": 4
+    },
+    {
+      "cliente": "Alfredo Dantas",
+      "agencia": "1145",
+      "conta": "4512-5",
+      "saldo": "15000",
+      "id": 5
+    },
+    {
+      "cliente": "Jullyethe",
+      "agencia": "1145",
+      "conta": "1854-4",
+      "saldo": "5000000",
+      "id": 6
+    }
+  ]
+}
