@@ -1,4 +1,4 @@
-## Rodas o projeto
+## Rodar o projeto
 
 1. Clone esse repositório
 2. Instale as dependencias `npm i`
